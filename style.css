@@ -51,7 +51,7 @@ body {
 #submit:hover {
   background-color: hsl(0, 0%, 100%);
 }
-.round:active {
+.round:focus {
   background-color: hsl(0, 0%, 100%);
 }
 #hidden-part {
