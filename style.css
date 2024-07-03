@@ -1,0 +1,8 @@
+body {
+  background-color: hsl(216, 12%, 8%);
+}
+.container {
+  margin: 0 auto;
+  max-width: 500px;
+  background-color: hsl(213, 19%, 18%);
+}
