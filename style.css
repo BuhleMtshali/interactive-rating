@@ -1,8 +1,56 @@
 body {
   background-color: hsl(216, 12%, 8%);
+  color: hsl(0, 0%, 100%);
+  font-family: "Overpass", sans-serif;
 }
 .container {
   margin: 0 auto;
-  max-width: 500px;
+  max-width: 350px;
   background-color: hsl(213, 19%, 18%);
+  border: none;
+  border-radius: 12px;
+  margin-top: 50px;
+  padding: 20px;
+}
+.text {
+  color: hsl(217, 12%, 63%);
+}
+.button-container {
+  width: 100%;
+  margin: 0 auto;
+}
+.round {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: hsl(217, 12%, 63%);
+  background-color: #71798195;
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+}
+#submit {
+  width: 100%;
+  margin-top: 20px;
+  padding: 5px;
+  border: none;
+  border-radius: 12px;
+  background-color: hsl(25, 97%, 53%);
+  font-weight: 700;
+  font-size: 16px;
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+}
+.round:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(216, 12%, 8%);
+}
+#submit:hover {
+  background-color: hsl(0, 0%, 100%);
+}
+.round:active {
+  background-color: hsl(0, 0%, 100%);
 }
