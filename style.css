@@ -54,3 +54,8 @@ body {
 .round:active {
   background-color: hsl(0, 0%, 100%);
 }
+#hidden-part {
+  margin: 0 auto;
+  text-align: center;
+  display: none;
+}
