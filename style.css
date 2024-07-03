@@ -12,7 +12,8 @@ body {
   margin-top: 50px;
   padding: 20px;
 }
-.text {
+.text,
+.thank-T {
   color: hsl(217, 12%, 63%);
 }
 .button-container {
